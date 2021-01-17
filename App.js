@@ -138,7 +138,6 @@ const DrawerComponent = () => {
         </Drawer.Navigator>
     )
 }
-
 const HeaderRight = () => {
     const navigation = useNavigation();
     return (
