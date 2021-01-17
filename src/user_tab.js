@@ -3,6 +3,7 @@ import { View, Text, Button } from 'react-native';
 
 class TabUserScreen extends Component {
     render() {
+        console.warn(this.props.route);
         return (
             <View style={{
                 flex: 1,
